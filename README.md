@@ -5,6 +5,8 @@ Este script fue desarrollado para poder analizar las monedas o tokens de futuros
 **Como usar el script**
 - Descargar python [Aqui](https://www.python.org/ "Aqui")
 - Descargar y modificar el Archivo config.py, el archivo lo puedes modificar con sublime text, el cual puedes descargar [Aqui](https://www.sublimetext.com/ "Aqui")
+- Abrir CMD y correr la siguiente linea "pip install python-binance".
+- 
 - Modifica el numero de dias de acuerdo al analisis que deseas hacer.
 ```python
 API_KEY = ''
@@ -13,7 +15,7 @@ API_SECRET = ''
 dias = 7  #Numero de dias a analizar de cada moneda o token
 ```
 - Una vez guardado el archivo debes ejecutarlo desde una terminal de windows o de tu sistema operativo que uses con el siguiente comando.
-`python script.py`
+`python script.py` desde la carpeta o escribir en cmd "python", dar un espacio y luego arrastrar el archivo script en la terminal.
 
 #### Contact
 - Twitter: [https://twitter.com/ElGafasTrading](https://twitter.com/ElGafasTrading "https://twitter.com/ElGafasTrading")
